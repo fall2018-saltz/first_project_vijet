@@ -33,6 +33,16 @@
             ],
             "source": "data.csv",
             "target": "second.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Its_a_subset",
+                    "type": "csv"
+                }
+            ],
+            "source": "second.R",
+            "target": "subs.csv"
         }
     ],
     "nodes": [
@@ -54,6 +64,6 @@
             "name": "subs.csv"
         }
     ],
-    "updated_at": "2018-09-27 15:22:55",
+    "updated_at": "2018-09-27 15:23:10",
     "url": "https://github.com/fall2018-saltz/first_project_vijet"
 }
